@@ -294,7 +294,7 @@ public class Main {
         totalQuestions++;
         System.out.println("\nFråga 21: Vilken iPaaS-plattform erbjuder möjligheten att skapa automatiserade arbetsflöden och integrationsflöden med hjälp av ett visuellt gränssnitt?");
         System.out.println("a) IBM Integration Bus");
-        System.out.println("b) Zapier");
+        System.out.println("b) Microsoft Azure Logic APPS");
         System.out.println("c) Jitterbit");
         String answer21 = scanner.nextLine();
         if (answer21.equals("b")) {
@@ -325,11 +325,11 @@ public class Main {
         System.out.println("b) Jitterbit");
         System.out.println("c) Dell Boomi");
         String answer23 = scanner.nextLine();
-        if (answer23.equals("c")) {
+        if (answer23.equals("a")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c'");
+            System.out.println("Fel svar. Rätt svar är 'a'");
         }
 
         // Fråga 24
@@ -405,7 +405,7 @@ public class Main {
         totalQuestions++;
         System.out.println("\nFråga 29: Vilken integrationsplattform erbjuder en visuell gränssnitt för att skapa automatiserade arbetsflöden och integrationsflöden?");
         System.out.println("a) IBM Integration Bus");
-        System.out.println("b) Zapier");
+        System.out.println("b) Microsoft Azure Logic APPS");
         System.out.println("c) Jitterbit");
         String answer29 = scanner.nextLine();
         if (answer29.equals("b")) {
@@ -419,7 +419,7 @@ public class Main {
         totalQuestions++;
         System.out.println("\nFråga 30: Vad är huvudsakliga användningen av Dell Boomi?");
         System.out.println("a) Att skapa automatiserade arbetsflöden och integrationsflöden.");
-        System.out.println("b) Att ansluta olika system, appar och datakällor genom API:er och integrationsflöden.");
+        System.out.println("b) Att erbjuda möjligheten att skapa integrationsflöden mellan olika system och applikationer via drop-gränssnitt.");
         System.out.println("c) Att skapa realtidsdataströmmar och eventbaserade system.");
         String answer30 = scanner.nextLine();
         if (answer30.equals("b")) {
